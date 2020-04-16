@@ -13,7 +13,6 @@ body{
     justify-content: flex-end;
     font-family: 'Poppins', sans-serif; 
     
-    
 }
 
 #nav-list{
@@ -42,17 +41,19 @@ body{
     text-align: center;
     width: 100%;
     height: 100vh;
+    
 }
 
 
 
 
 .welcome h1{
+    border-radius: 10px 100px / 120px;
     font-family: 'Raleway', sans-serif;
     font-size: 6rem;
     margin:0;
     padding:1rem;
-    color:#e17055;
+    color:#7158e2;
     
 }
 
@@ -60,21 +61,29 @@ body{
     font-size: 3rem;
     font-weight: 6rem;
     font-style: italic;
-    color: #ff4757;
+    color: #487eb0;
     margin:0;
     padding:1rem;
+    border-radius: 10px 100px / 120px;
 }
 
 .project-site{
    text-align: center;
    font-weight: 700;
    color: #0984e3;
+   
+}
+
+.project-site h2{
+    color: #ff4757;
+    font-family: 'Anton', sans-serif;
+
 }
 
 .gallery{
     background-image: lightblue;
     text-align: center;
-    padding: 3rem ;
+    padding: 0 1rem 1rem 3rem;
     display: flex;
     background-size: auto;
 }
@@ -88,6 +97,7 @@ body{
 
 .gallery-item img{
     width:100%;
+    border-radius: 30px;
 }
 
 .footer{
@@ -98,6 +108,12 @@ body{
     width: 100%;
     background-color: ghostwhite;
     color: black;
+    margin-top: 1rem;
+}
+
+.footer p{
+    font-family: 'Baloo Tamma 2', cursive;
+    margin: 0;
 }
 
  .icon img{
