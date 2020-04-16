@@ -1,0 +1,114 @@
+body{
+    margin-left: 0;
+    margin-right:0;
+    margin-top:0;
+    
+    
+  }
+   
+ 
+.nav-bar{
+    background-color: #a8a7a7;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif; 
+    
+    
+}
+
+#nav-list{
+    display:flex;
+    color:#ffff;
+    margin-right: 2rem;
+}
+
+#nav-list a:hover{
+    color:black;
+}
+
+#nav-list a{
+   padding: 10px;   
+   list-style: none;
+   text-decoration: none; 
+   color: white;
+}
+
+
+
+.welcome{
+    background-image: url("/Users/chinyongchhe/Documents/Project/pofolio/bike.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+.welcome h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 6rem;
+    margin:0;
+    padding:1rem;
+    color:#e17055;
+    
+}
+
+.welcome p{
+    font-size: 3rem;
+    font-weight: 6rem;
+    font-style: italic;
+    color: #ff4757;
+    margin:0;
+    padding:1rem;
+}
+
+.project-site{
+   text-align: center;
+   font-weight: 700;
+   color: #0984e3;
+}
+
+.gallery{
+    background-image: lightblue;
+    text-align: center;
+    padding: 3rem ;
+    display: flex;
+    background-size: auto;
+}
+ 
+.gallery-item{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    border: 5px solid #fff;
+} 
+
+.gallery-item img{
+    width:100%;
+}
+
+.footer{
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+ .icon img{
+    width:20px;
+    padding:5px;
+    
+} 
+
+
+.icon{
+    display:flex;
+    justify-content: center;
+}
+
